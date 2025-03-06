@@ -46,15 +46,15 @@ elif page == "Projects":
     projects = [
         {"title": "📊 Timetable", "type": "Year 1 Project",
          "description": "Timetable Generator.",
-         "link": "https://github.com/Bruce-dotcom/streamit/tree/main/sample/Individual"},
+         "link": "https://github.com/Princecode11/Student_Portifolio/tree/main/sample/Individual"},
         {"title": "🦾 Personal Finance Manager", "type": "Group Projects",
          "description": "Developed a recording system storing students' information.",
-         "link": "https://github.com/Bruce-dotcom/streamit/tree/main/sample/Group2"},
+         "link": "https://github.com/Princecode11/Student_Portifolio/tree/main/sample/Group"},
         {"title": "🌐 Website Development", "type": "Group Projects",
          "description": "Built a dynamic website.", "link": "https://github.com"},
         {"title": "📕 Final Year Dissertation", "type": "Dissertation",
          "description": "E-Pass System",
-         "link": "https://github.com/Bruce-dotcom/streamit/tree/main/sample/dissertation"}
+         "link": "https://github.com/Princecode11/Student_Portifolio/tree/main/sample/dissertation"}
     ]
 
     filtered_projects = [project for project in projects if category == "All" or project["type"] == category]
